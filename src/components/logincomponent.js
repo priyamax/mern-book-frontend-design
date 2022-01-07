@@ -70,7 +70,7 @@ export default class Login extends Component {
                 </div>
                 <div className="form-group">
                                 <label>Role</label><br></br>
-                                <input type="text" className="form-control" placeholder="Role" required value={this.state.role} onChange={(e)=> this.setState({role: e.target.value})} />
+                                <input type="text" className="form-control" placeholder="user or admin" required value={this.state.role} onChange={(e)=> this.setState({role: e.target.value})} />
                             </div><br></br>
 
                 <div className="form-group">
