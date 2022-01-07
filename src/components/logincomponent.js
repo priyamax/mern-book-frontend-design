@@ -86,7 +86,7 @@ export default class Login extends Component {
                 </p>
                 <p>
                     Not a registered user?
-                    <Button href="sign-up">Signup</Button>
+                    <Button onClick={(e)=>this.props.history.push('/sign-up')}>Signup</Button>
                 </p>
             </form>
             </div>
