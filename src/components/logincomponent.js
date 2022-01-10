@@ -66,7 +66,7 @@ export default class Login extends Component {
 
                 <div className="form-group">
                     <label>Password</label><br></br>
-                    <input type="password" className="form-control" placeholder="Enter password" required value={this.state.password} onChange={(e)=> this.setState({password: e.target.value})}/><br></br>
+                    <input type="password" className="form-control" placeholder="Enter password " required value={this.state.password} onChange={(e)=> this.setState({password: e.target.value})}/><br></br>
                 </div>
                 <div className="form-group">
                                 <label>Role</label><br></br>
