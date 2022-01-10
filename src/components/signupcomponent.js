@@ -90,7 +90,7 @@ export default class SignUp extends Component {
 
                                 <div className="form-group">
                                     <label>Address</label><br></br>
-                                    <input type="text" className="form-control" placeholder="Chennai" minLength={5} maxLength={50} required value={this.state.address} onChange={(e) => this.setState({ address: e.target.value })} />
+                                    <input type="text" className="form-control" placeholder="give Chennai" minLength={5} maxLength={50} required value={this.state.address} onChange={(e) => this.setState({ address: e.target.value })} />
                                 </div><br></br>
 
                                 <div className="form-group">
@@ -100,7 +100,7 @@ export default class SignUp extends Component {
 
                                 <div className="form-group">
                                     <label>Password</label><br></br>
-                                    <input type="password" className="form-control" placeholder="Enter password" minLength={8} maxLength={10} required value={this.state.password} onChange={(e) => this.setState({ password: e.target.value })} />
+                                    <input type="password" className="form-control" placeholder="Enter password min 8 max 10" minLength={8} maxLength={10} required value={this.state.password} onChange={(e) => this.setState({ password: e.target.value })} />
                                 </div><br></br>
 
                                 <div className="form-group">
